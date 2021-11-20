@@ -1,0 +1,103 @@
+h5 {
+  color: rgb(173, 189, 186);
+}
+p {
+  color: rgb(173, 189, 186);
+}
+.App {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+body {
+  background-image: url("https://images.unsplash.com/photo-1618781466372-10b32f475ab3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1520&q=80");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 468px) {
+  .span {
+    position: absolute;
+    display: flex;
+    margin-left: 40px;
+  }
+}
+@media (max-width: 538px) {
+  .span {
+    position: absolute;
+    margin-left: 40px;
+    margin-bottom: 100px;
+    color: #fff;
+    display: none;
+  }
+  input {
+    width: 100%;
+  }
+}
+.span:hover {
+  color: rgb(109, 101, 101);
+}
+span::selection {
+  background: rgb(10, 2, 2);
+}
+input {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  background-color: rgba(223, 219, 219, 0.041);
+  padding: 10px;
+}
+input:focus {
+  background-color: rgba(90, 130, 153, 0.281);
+  color: #fff;
+  transition: 1s;
+}
+.card {
+  background-color: rgba(66, 89, 102, 0.404);
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.btn-danger {
+  cursor: pointer;
+}
+.card:hover {
+  background-color: rgba(64, 158, 92, 0);
+  transition: 0.5s ease-in 0.5s;
+}
+
+.submit:hover {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: rgb(28, 138, 138);
+}
+
+.navbar {
+  background-color: rgba(66, 89, 102, 0.404);
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.cards {
+  margin-top: 60px;
+}
+h5::selection {
+  color: rgba(20, 11, 11, 0.822);
+}
+p::selection {
+  color: rgba(20, 11, 11, 0.822);
+}
+img::selection {
+  color: rgba(20, 11, 11, 0.822);
+}
+
+@media (max-width: 538px) {
+  .cards {
+    margin-top: 115px;
+  }
+}
