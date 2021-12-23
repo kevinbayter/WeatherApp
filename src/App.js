@@ -9,7 +9,7 @@ export default function App() {
   const apiKey = "89104e7f7f2f31a64a0d479269b86843";
   function onSearch(city) {
     fetch(
-      `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
+      `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
     )
       .then((res) => res.json())
       .then((resources) => {
